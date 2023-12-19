@@ -11,6 +11,7 @@ export function GET(request) {
       'content-type': 'application/liquid;charset=UTF-8',
     },
   })
+  
 
   return resp
 }
