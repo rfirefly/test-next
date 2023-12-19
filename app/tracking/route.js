@@ -7,7 +7,8 @@ export function GET(request) {
   const tpl = fs.readFileSync(filePath, 'utf8')
   const resp = new Response(tpl, {
     headers: {
-      'content-type': 'text/html;charset=UTF-8',
+      ...request.headers,
+      'content-type': 'application/liquid;charset=UTF-8',
     },
   })
 
