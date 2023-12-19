@@ -1,0 +1,138 @@
+.track123_form_wrapper {
+    text-align: center;
+}
+.track123_form_wrapper .track123_title {
+    margin-bottom: 24px;
+}
+
+.track123_tracking_above, .track123_tracking_below {
+    white-space: pre-line;
+    padding: 20px 0;
+}
+
+.track123_form_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track123_input_container {
+    position: relative;
+    width: 240px;
+    margin-bottom: 40px;
+}
+
+.track123_form_button { 
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+.track123_form_label {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.track123_form_input {
+    width: 100%;
+    border: solid 1px;
+    margin: 0 !important;
+    padding: 0.8rem 1.5rem !important;
+}
+
+.track123_form_error {
+    display: none;
+    color: red;
+    line-height: 18px;
+    position: absolute;
+    text-align: start;
+}
+
+.track123_form_error_show {
+    display: block !important;
+}
+
+/* 两列模式 */
+.track123_two_form_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    padding: 45px 0;
+    border: 1px solid #D9DBDE;
+    border-radius: 4px;
+    position: relative;
+}
+
+.track123_tracking_line_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  /* 为了继承父元素的高度 */
+    height: calc(100% - 90px);
+}
+
+.track123_tracking_word {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 8px 0;
+    opacity: 0.6;
+}
+
+.track123_tracking_line {
+    display: block !important;
+    width: 0;
+    height: 50px;
+    opacity: 0.2;
+    border: 0.3px solid;
+}
+.track123_form_wrapper {
+    text-align: center;
+}
+.track123_form_wrapper .track123_title {
+    margin-bottom: 24px;
+}
+
+.track123_tracking_above, .track123_tracking_below {
+    white-space: pre-line;
+    padding: 20px 0;
+}
+
+.track123_tab{
+    display: none;
+}
+
+.track123_input_container {
+    position: relative;
+    width: 240px;
+    margin-bottom: 40px;
+}
+
+.track123_form_input {
+    width: 100%;
+    border: solid 1px;
+    padding: 0.8rem 1.5rem !important;
+}
+
+.track123_form_error {
+    display: none;
+    color: red;
+    line-height: 18px;
+    position: absolute;
+    text-align: start;
+}
+
+.track123_form_error_show {
+    display: block !important;
+}
+
+.track123_result_title_card{
+    margin: 6rem auto;
+    width: 96%;
+    text-align: center;
+}
+
+.track123_result_title {
+    margin-top: 0;
+}

@@ -1,0 +1,31 @@
+:root {
+    --white: #FFFFFF;
+    --main-p1: #065FF5;
+    --main-p2: rgba(6, 95, 245, 0.1);
+    --text-p1: #0B1019;
+    --text-p2: rgba(11, 16, 25, 0.65);
+    --text-p3: rgba(11, 16, 25, 0.45);
+    --text-p4: rgba(11, 16, 25, 0.25);
+    --background-p1: #FFFFFF;
+    --background-p2: #F1F2F6;
+    --line-p1: rgba(2, 15, 64, 0.4);
+    --line-p2: rgba(2, 15, 64, 0.08);
+    --warning: #E70D0D;
+}
+
+/* 给用户自定义modern样式的说明
+:root {
+    --main-p1: #065ff5;   // 主题色1，按钮颜色，高亮色等
+    --main-p2: rgba(6,95,245,0.1);   // 主题色2， 好像暂时没用到
+    --text-p1: #0b1019;   // 文字色1，大部分深色字体都是这个颜色，下面的文字色深度依次递减
+    --text-p2: rgba(11,16,25,0.65);  // 文字色2
+    --text-p3: rgba(11,16,25,0.45);  // 文字色3
+    --text-p4: rgba(11,16,25,0.25);  // 文字色4
+    --background-p1: #fff;   // 背景颜色1
+    --background-p2: #f1f2f6;  // 背景颜色2，物流日期非高亮的背景色
+    --line-p1: rgba(2,15,64,0.4);  // 分割线颜色1
+    --line-p2: rgba(2,15,64,0.08);  // 分割线颜色2
+    --warning: #e70d0d;   // 提醒色，报错提示文字
+    --white: #fff;  // 白色，按钮文字
+} 
+*/

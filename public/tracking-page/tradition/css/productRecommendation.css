@@ -1,0 +1,69 @@
+.swiper-wrapper {
+    height: auto !important;
+}
+
+.track123-swiper-slide {
+    width: 100%;
+    text-align: center;
+}
+.track123-swiper-slide:hover .track123_product_title {
+    text-decoration: underline;
+}
+.track123-swiper-slide:hover .track123_product_img {
+    overflow: hidden;
+    transform: scale(1.1);
+}
+.track123-swiper-slide a {
+    text-decoration: none;
+}
+.track123_product_link_container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #f1f2f6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.track123_product_link_fill_container {
+    background-size: cover !important;
+}
+.track123-swiper-slide .track123_product_link_container svg {
+    width: 30px;
+}
+.track123-swiper-slide .track123_product_img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+.track123-swiper-slide .track123_product_fill_img {
+    width: 100%;
+    height: fit-content;
+    max-height: unset !important;
+}
+.track123-swiper-slide .track123_product_title {
+    font-size: 16px;
+    margin: 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.track123_product_price_container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.track123_product_compare_price {
+    margin-right: 10px;
+}
+.track123-swiper-slide .track123_product_price {
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}

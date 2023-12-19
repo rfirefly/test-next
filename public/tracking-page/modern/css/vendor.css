@@ -1,0 +1,53 @@
+/* 修改第三方 */
+
+/* google map 去掉全屏展示 */
+.gm-style .default-card {
+    display: none !important;
+}
+
+/* google translate 样式修改 */
+.track123_google_translate_element {
+    position:fixed;
+    top: 12px;
+    display: block; 
+    right: 12px; 
+    z-index: 100000000;
+}
+.track123-arrow-down {
+    position: absolute;
+    z-index: 1000;
+    top: 18px;
+    right: 12px;
+    width: 0px;
+    height: 0px;
+    border: 5px;
+    border-style: solid;
+    border-color: var(--text-p1) transparent transparent;
+}
+.skiptranslate {
+    display: none;
+}
+.goog-te-combo {
+    position: relative;
+    color: var(--text-p1);
+    font-size: 14px !important;
+    line-height: 20px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+    border: none;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    background: #ffffff;
+    padding: 10px 28px 10px 10px;
+}
+.goog-te-combo:focus-visible {
+    border: none !important;
+    outline: transparent;
+}
+

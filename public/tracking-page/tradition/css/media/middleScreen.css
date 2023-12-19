@@ -1,0 +1,79 @@
+/* orderDetail start */
+.track123_order_detail_container {
+    flex-direction: column;
+}
+
+.track123_order_arrive_time {
+    margin: 0;
+    text-align: left;
+}
+
+.track123_order_map_location_container {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.track123_order_progress_container {
+    margin-bottom: 0;
+}
+
+.track123_order_desc_container {
+    width: 100%;
+    margin-bottom: 28px;
+}
+.package-info {
+    display: unset !important;
+}
+.row-width {
+    width: 100% !important;
+}
+/* orderDetail end */
+
+/* OrderStepLine start */
+.track123_order_step_line_wrapper {
+    margin-left: 27px;
+    margin-top: 0;
+}
+
+.track123_order_step_line_icon_active_border {
+    margin: 8px 0 !important;
+}
+
+.track123_order_step_line_container {
+    flex-direction: column;
+}
+
+.track123_order_step_line_item {
+    flex-direction: row !important;
+}
+
+.track123_order_step_line_icon_container {
+    width: auto;
+    height: 114px;
+    margin-right: 16px;
+    flex-direction: column;
+}
+
+.track123_order_step_line_icon_container .track123_order_step_line_process:first-child {
+    width: 6px;
+    border-radius: 0 0 100px 100px;
+}
+
+.track123_order_step_line_icon_container .track123_order_step_line_process:last-child {
+    width: 6px;
+    border-radius: 100px 100px 0 0;
+}
+
+.track123_order_step_line_icon_border {}
+
+.track123_order_step_line_foot {
+    align-items: flex-start;
+}
+
+.track123_order_step_line_status_name {
+    margin-top: 0px;
+    width: 250px;
+    text-align: left;
+}
+
+/* OrderStepLine end */

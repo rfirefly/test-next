@@ -1,0 +1,282 @@
+
+@media screen and (min-width: 834px) {
+    .track123_form_wrapper {
+        /* position: fixed;
+        top: 50%;
+        left: 24px;
+        margin-top: 38px;
+        transform: translateY(-50%); */
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: linear-gradient(90deg, rgba(17, 27, 43, 0.40) 0%, rgba(17, 27, 43, 0.00) 100%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.track123_additional_text_mobile_container {
+    display: none !important;
+}
+.track123_additional_text_pc_container {
+    display: block !important;
+}
+.track123_additional_text_container {
+    width: 350px;
+    padding: 12px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: var(--background-p1);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+.track123_additional_text_container .text_above {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-p1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.track123_additional_text_container .text_above .toggle_additional_text {
+    cursor: pointer;
+    margin-left: 12px;
+}
+.track123_additional_text_container .text_above .title {
+    flex: 1;
+    font-size: 14px;
+    color: var(--text-p2);
+    max-height: 100px;
+    overflow-y: scroll;
+    word-break: break-word;
+}
+.track123_additional_text_container .text_above .title::-webkit-scrollbar {
+    display: block !important;
+    width: 4px;
+    /* width: 16px;
+    height: 16px;
+    background-color: wheat; */
+}
+.track123_additional_text_container .text_above .title::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 50px;
+    border-radius: 3px;
+    background: #D9D9D9;
+}
+
+.track123_form_container {
+    position: relative;
+    width: 350px;
+    padding: 16px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-left: 24px;
+    background: var(--background-p1);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+.track123_form_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-p1);
+}
+.track123_tab_container {
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+}
+.track123_tab_bar {
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+    color: var(--text-p3);
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--line-p2);
+}
+.track123_tab_active_bar {
+    font-weight: 600;
+    color: var(--main-p1);
+    border-bottom: 3px solid var(--main-p1);
+}
+.track123_input_container {
+    margin-top: 24px;
+}
+.track123_input_content {
+    margin-bottom: 16px;
+}
+.track123_input_content:last-of-type {
+    margin-bottom: 0;
+}
+.track123_form_field::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-p3)
+}
+.track123_form_field {
+    width: 100%;
+    min-width: 320px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    color: var(--text-p1);
+    background: var(--background-p2);
+}
+.track123_input_disable_field {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: var(--text-p2) !important;
+}
+.track123_form_field_error {
+    border: 1px solid var(--warning);
+}
+.track123_form_field:focus-visible {
+    border-color: var(--main-p1);
+    outline-color: var(--main-p1);
+}
+.track123_form_field::placeholder {
+    color: var(--text-p3);
+    font-size: 14px;
+    line-height: 20px;
+}
+.track123_form_error {
+    display: none;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+    color: var(--warning);
+}
+.track123_form_error_show {
+    display: block !important;
+}
+.track123_form_button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    margin-top: 20px;
+    border: none;
+    color: var(--white);
+    background: var(--main-p1);
+}
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.track123_form_loading {
+    margin-right: 10px;
+    animation: loading .7s infinite linear;
+}
+.track123_no_data_tips {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    color: var(--warning);
+    background: rgba(231, 13, 13, 0.04);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.track123_no_data_tips .tips {
+    flex: 1;
+    margin-left: 8px;
+}
+.track123_poweredBy {
+    height: 16px;
+    position: absolute;
+    left: 0;
+    bottom: -28px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 833px) {
+    .track123_form_wrapper {
+        position: fixed;
+        width: calc(100vw - 24px);
+        top: unset;
+        bottom: 12px;
+        left: 0;
+        margin: 0 12px;
+        margin-top: 38px;
+        transform: unset;
+        box-sizing: border-box;
+    }
+    .track123_additional_text_mobile_container {
+        display: block !important;
+    }
+    .track123_additional_text_pc_container {
+        display: none !important;
+    }
+    .track123_additional_text_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .track123_form_container {
+        width: 100%;
+        margin-left: 0;
+    }
+    .track123_tab_bar {
+        width: 50%;
+        white-space: break-spaces;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    .track123_additional_text_container .text_above {
+        max-height: 64px;
+        overflow-y: hidden;
+    }
+    .track123_additional_text_container .text_above_show_all {
+        height: auto !important;
+    }
+    .track123_additional_text_container .text_above .content {
+        flex: 1;
+        position: relative;
+    }
+    .track123_additional_text_container .text_above .title {
+        height: fit-content;
+        overflow-y: unset;
+        word-break: break-all;
+        max-height: unset;
+    }
+    .track123_additional_text_container .text_above .more_icon {
+        position: absolute;
+        top: 36px;
+        right: 2px;
+        background: #fff;
+        padding: 5px 10px 15px;
+        transform: rotate(0deg);
+    }
+    .up_more_icon {
+        float: right;
+        position: unset !important;
+        padding: 3px 11px !important;
+        margin-top: -16px !important;
+        transform: rotate(180deg) !important;
+    }
+    .track123_poweredBy {
+        top: -20px;
+    }
+}

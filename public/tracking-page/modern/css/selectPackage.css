@@ -1,0 +1,103 @@
+
+.track123_select_package_wrapper {
+    width: 375px;
+    position: fixed;
+    top: 50%;
+    left: 24px;
+    margin-top: 38px;
+    transform: translateY(-50%);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--background-p1);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+.track123_select_package_title {
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-p1);
+    padding: 12px 16px;
+    background: var(--background-p2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.track123_select_package_content {
+    width: 100%;
+    max-height: 75vh;
+    padding: 8px 16px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: var(--background-p1);
+}
+.track123_select_package_sub_title {
+    font-size: 14px;
+    color: var(--text-p3);
+    padding: 8px 0;
+}
+.track123_select_package_item_container {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--line-p2);
+}
+.track123_select_package_item_container:last-of-type {
+    border-bottom: none;
+}
+.track123_select_package_item_content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 0;
+}
+.track123_select_package_item_content .courier_logo_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1px solid var(--background-p2);
+}
+.track123_select_package_item_content .courier_logo_img img {
+    width: 40px;
+    height: 40px;
+}
+
+.track123_select_package_item_content .default_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px;
+    background: var(--text-p4);
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+.track123_select_package_item_content .default_icon img {
+    width: 24px;
+    height: 24px;
+}
+.track123_select_package_item_content .tracking_number {
+    color: var(--text-p1);
+    word-break: break-word;
+}
+
+@media screen and (max-width: 833px) {
+    .track123_select_package_wrapper {
+        width: 100%;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        margin-top: 0;
+        transform: unset;
+        border-radius: 16px 16px 0 0;
+    }
+    .track123_select_package_title {
+        width: 100vw;
+    }
+    .track123_select_package_content {
+        width: 100vw;
+    }
+}

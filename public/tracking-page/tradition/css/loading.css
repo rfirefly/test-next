@@ -1,0 +1,43 @@
+.track123_page_loading{
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+.track123_page_loading span{
+    margin: 4px;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #6D7175;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 3rem;
+    animation: loading 1.25s infinite ease;
+    animation-play-state: paused;
+    -webkit-animation: load 1.5s infinite ease;
+}
+@-webkit-keyframes load{
+    0% {
+        -webkit-transform: scale(1);
+    }
+    20% {
+        -webkit-transform: scale(2.5);
+    }
+    40% {
+        -webkit-transform: scale(1);
+    }
+}
+.track123_page_loading span:nth-child(2){
+    -webkit-animation-delay:0.3s;
+}
+.track123_page_loading span:nth-child(3){
+    -webkit-animation-delay:0.6s;
+}
+.track123_page_loading span:nth-child(4){
+    -webkit-animation-delay:0.9s;
+}
+.track123_page_loading span:nth-child(5){
+    -webkit-animation-delay:1.2s;
+}

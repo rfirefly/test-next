@@ -1,0 +1,196 @@
+/* 小屏幕 @media screen and (max-width: 833px) */
+
+/* common  start */
+.track123_sub_title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.track123_body_medium {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.track123_body {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.track123_caption {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.track123_mobile_body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* common  end */
+
+/* Form  start */
+.track123_form_wrapper .track123_title {
+    margin-bottom: 32px;
+    text-align: center;
+}
+.track123_tab{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.track123_tab_bar {
+    width: 168px;
+    font-size: 15px;
+    text-align: center;
+    flex: 1;
+    opacity: 0.45;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    line-height: 18px;
+    padding: 0 10px 18px;
+}
+.track123_tab_bar_color {
+    opacity: 1;
+    border-bottom-width: 3px;
+}
+.track123_tab_bar_color::after {
+    content: "";
+}
+.track123_form_content, .track123_two_form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.track123_tracking_line_center {
+    display: none;
+}
+.track123_two_form_wrapper {
+    border: none;
+    padding: 0px;
+}
+.track123_input_container {
+    width: auto;
+    margin-bottom: 24px;
+}
+.hide_order_number{
+    display: none;
+}
+.hide_tracking_number{
+    display: none;
+}
+.track123_form_wrapper {
+    text-align: left;
+}
+.track123_form_button{
+    width: 100%;
+    min-height: 40px;
+}
+.track123_form_input{
+    height: 40px;
+}
+/* Form  end */
+
+/* OrderDetail start */
+.track123_order_header{
+    margin-bottom: 40px;
+}
+.track123_order_progress_container {
+    margin-bottom: 0px;
+}
+.track123_order_detail_title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.track123_order_detail_container{
+    display: flex;
+    flex-direction: column;
+}
+.track123_order_arrive_time {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    margin: 40px 0px 20px;
+    background: none;
+    padding: 0px;
+}
+.track123_order_step_line_wrapper{
+    margin: 0px;
+}
+.track123_order_desc_container {
+    width: 100%;
+    margin-bottom: 28px;
+}
+.track123_order_map_location_container {
+    width: 100%;
+    margin-left: 0px;
+}
+.track123_order_tracking_details_container{
+    margin-top: 20px;
+}
+/* OrderDetail end */
+
+/* OrderStepLine start */
+.track123_order_step_line_status_name {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 16px;
+}
+.track123_order_step_line_item:first-child {
+    align-items: flex-start;
+}
+.track123_order_step_line_item:last-child {
+    align-items: flex-end;
+}
+.track123_order_step_line_item:last-child .track123_order_step_line_foot {
+    margin-right: -20px !important;
+}
+.track123_order_step_line_item:first-child .track123_order_step_line_process:first-child {
+    display: none !important;
+}
+.track123_order_step_line_item:last-child .track123_order_step_line_process:last-child {
+    display: none !important;
+}
+.track123_order_step_line_foot{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.track123_order_step_line_active_foot{
+    display: flex !important;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 28px !important;
+}
+.track123_order_step_line_item:last-child .track123_order_step_line_foot:last-child{
+    display: none;
+}
+.track123_order_step_line_two_foot{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    right: 30px;
+}
+/* OrderStepLine end */
+
+/* Swiper start */
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+.track123-swiper-slide .track123_product_title {
+    font-size: 12px;
+    margin: 8px 0;
+}
+.track123_product_recommendation_content {
+    margin: 16px 0 16px;
+}
+/* Swiper end */

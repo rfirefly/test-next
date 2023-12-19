@@ -1,0 +1,95 @@
+.track123_order_step_line_container div:empty {
+    display: block !important;
+}
+.track123_order_step_line_container {
+    display: flex;
+    justify-content: space-between;
+}
+.track123_order_step_line_icon_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.track123_order_step_line_item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.track123_order_step_line_process {
+    flex: 1;
+    height: 6px;
+}
+/* 首尾两个透明不显示 */
+.track123_order_step_line_item:first-child .track123_order_step_line_process:first-child {
+    background: transparent !important;
+}
+.track123_order_step_line_item:last-child .track123_order_step_line_process:last-child {
+    background: transparent !important;
+}
+.track123_order_step_line_icon_container .track123_order_step_line_process:first-child {
+    border-radius: 0 100px 100px 0;
+}
+.track123_order_step_line_icon_container .track123_order_step_line_process:last-child {
+    border-radius: 100px 0 0 100px;
+}
+.track123_order_step_line_icon_active_border {
+    padding: 5px !important;
+    margin: 0 8px;
+}
+.track123_order_step_line_icon_border {
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.track123_order_step_line_not_active {
+    opacity: 0.35;
+}
+.track123_order_step_line_active_icon {
+    width: 38px !important;
+    height: 38px !important;
+}
+.track123_order_step_line_active_icon svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+.track123_order_step_line_icon svg {
+    fill: transparent !important;
+}
+.track123_order_step_line_icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track123_complete_icon {
+    margin-top: -5px;
+}
+.track123_order_step_line_icon svg path {
+    stroke: #ffffff !important;
+}
+.track123_order_step_line_icon svg circle {
+    stroke: #ffffff !important;
+}
+.track123_order_step_line_status_name {
+    margin-top: 12px;
+    text-align: center;
+    /* color: rgba(0, 0, 0, 0.65) !important; */
+}
+.track123_order_step_line_active_foot .track123_order_step_line_status_name {
+    font-weight: 500 !important;
+    line-height: 24px !important;
+    /* color: rgba(0, 0, 0, 0.95) !important; */
+}
+.track123_order_step_line_time {
+    /* color: rgba(0, 0, 0, 0.65) !important; */
+}
+.track123_order_step_line_foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
