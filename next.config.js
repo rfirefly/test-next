@@ -1,7 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production'
 
-// const assetPrefix = isProd ? 'https://test-next-rfirefly.vercel.app' : ''
-const assetPrefix = 'https://9f18-1-33-209-34.ngrok-free.app'
+const assetPrefix = isProd ? 'https://test-next-rfirefly.vercel.app' : 'https://9f18-1-33-209-34.ngrok-free.app'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
