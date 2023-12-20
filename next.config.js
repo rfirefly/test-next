@@ -1,8 +1,13 @@
 const isProd = process.env.NODE_ENV === 'production'
 
+const assetPrefix = isProd ? 'https://test-next-rfirefly.vercel.app' : ''
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: isProd ? 'https://test-next-rfirefly.vercel.app' : '',
+  assetPrefix: assetPrefix,
+  env: {
+    ASSET_PREFIX: assetPrefix,
+  },
   images: {
     remotePatterns: [
       {
