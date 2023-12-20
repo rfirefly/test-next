@@ -6,6 +6,7 @@ const assetPrefix = 'https://9f18-1-33-209-34.ngrok-free.app'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   assetPrefix: assetPrefix,
+  trailingSlash: true,
   env: {
     ASSET_PREFIX: assetPrefix,
   },
