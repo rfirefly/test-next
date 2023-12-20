@@ -3,7 +3,7 @@ import fs from 'fs'
 import { NextResponse } from 'next/server'
 
 export function GET(request) {
-  // console.log('🚀 ~ request:', request)
+  console.log('🚀 ~ request:', request)
   // const filePath = path.resolve('./public/test.html')
   // const tpl = fs.readFileSync(filePath, 'utf8')
   // const resp = new NextResponse(tpl, {
